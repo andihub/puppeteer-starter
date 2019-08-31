@@ -13,6 +13,14 @@ Simple puppeteer starter project with enabled:
 
 based on [andihub/node-typescript-ts-node-nodemon-vscode-debug-starter](https://github.com/andihub/node-typescript-ts-node-nodemon-vscode-debug-starter)
 
+### Getting started
+
+`git clone --depth=1 git@github.com:andihub/puppeteer-starter.git my-awesome-project`
+
+optional:
+cd my-awesome-project
+rm -rf .git
+
 ### Usage
 
 - `yarn start` compile ts to `dist`folder
