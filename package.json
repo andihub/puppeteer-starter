@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-starter",
+  "description": "Puppeteer starter project",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "andihub",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  }
+}
